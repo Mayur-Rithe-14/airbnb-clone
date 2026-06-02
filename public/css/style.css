@@ -104,12 +104,20 @@ body {
 }
 
 /* Show Page */
-.show-img {
+/* .show-img {
   height: 30vh;
+} */
+
+.show-img {
+  height: 280px;
 }
 
 .btns {
   display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .show-card {
@@ -213,7 +221,171 @@ body {
   padding-right: 1rem;
 }
 
-/* @media (max-width: 768px) {
+.show-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.show-card {
+  padding: 0;
+  border: none;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.review-card {
+  height: 100%;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.edit-btn,
+.delete-btn {
+  min-width: 120px;
+}
+
+.auth-page {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.auth-form .form-control {
+  padding: 0.75rem;
+}
+
+.auth-form button {
+  padding: 0.75rem;
+  font-weight: 600;
+}
+
+/* Navbar Buttons */
+.auth-btn,
+.logout-btn {
+  padding: 0.6rem 1rem !important;
+  margin-left: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.auth-btn:hover,
+.logout-btn:hover {
+  background-color: #f7f7f7;
+}
+
+/* Airbnb Button */
+.host-btn {
+  background-color: #e63946;
+  padding: 0.6rem 1.2rem !important;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(254, 66, 77, 0.3);
+}
+
+.host-btn:hover {
+  background-color: #e63946;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(254, 66, 77, 0.3);
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem !important;
+  background-color: #2563eb;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.explore-btn:hover {
+  background-color: #2563eb;
+  color: white !important;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  .host-btn,
+  .auth-btn,
+  .logout-btn {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .show-img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .show-img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-page {
+    min-height: auto;
+    padding: 1rem;
+  }
+
+  .auth-form {
+    padding: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .auth-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .review-card {
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  .form-label {
+    font-size: 0.95rem;
+  }
+
+  textarea.form-control {
+    font-size: 16px;
+  }
+
   .navbar-collapse {
     display: none;
   }
@@ -265,26 +437,53 @@ body {
     font-size: 16px;
   }
 
-  .btn {
-    width: 100%;
+  .btns {
+    flex-direction: column;
   }
+
+  .btns a,
+  .btns button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .btns form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .btn {
+    width: 100%;
+  } */
+
+  /* .btns {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  /* .btns .btn,
+  .btns form {
+    width: 100%;
+    max-width: 300px;
+  } */
 
   .preview-img {
     width: 100%;
     height: 200px;
   }
 
-  .show-img {
+  /* .show-img {
     height: 250px;
-  }
+  } */
 
-  .show-img,
+  /* .show-img,
   .card-img-top {
-    width: 100%; 
-    height: 250px; 
-    object-fit: cover; 
-    border-radius: 12px; 
-  }
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  } */
 
   .f-info {
     padding: 1rem;
@@ -296,4 +495,4 @@ body {
   .f-info-brand {
     margin-bottom: 0.5rem;
   }
-}  */
+}
