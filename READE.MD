@@ -174,19 +174,23 @@ http://localhost:8080/listings
 
 ### Home Page
 
-Add screenshot here
+![Home Page](./screenshots/home-page.png)
 
 ### Listing Details Page
 
-Add screenshot here
+![Explore Listings](./screenshots/Listing-Detail.png)
 
-### Login/Signup Page
+### Login Page
 
-Add screenshot here
+![Login Page](./screenshots/Login-Page.png)
+
+### Signup Page
+
+![Signup Page](./screenshots/Signup-Page.png)
 
 ### Create Listing Page
 
-Add screenshot here
+![Create Listing](./screenshots/Create-Listing-Page.png)
 
 ---
 
