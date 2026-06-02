@@ -238,7 +238,7 @@ body {
     padding: 0.75rem 0;
   }
 
-  .listing-card {
+  /* .listing-card {
     margin-bottom: 1rem;
   }
 
@@ -249,7 +249,7 @@ body {
 
   .card-title {
     font-size: 1rem;
-  }
+  } */
 
   #filters {
     overflow-x: auto;
@@ -265,13 +265,13 @@ body {
     display: none;
   }
 
-  .form-control {
+  /* .form-control {
     font-size: 16px;
   }
 
   .btn {
     width: 100%;
-  }
+  } */
 
   /* .preview-img {
     width: 100%;
