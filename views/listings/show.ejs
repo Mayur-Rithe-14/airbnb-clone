@@ -20,16 +20,25 @@
   </div>
 
   <% if(currUser && listing.owner._id.equals(currUser._id)) { %>
-    <div class="btns">
-      <a
-        href="/listings/<%= listing._id %>/edit"
-        class="btn btn-dark edit-btn"
-        >Edit</a
-      >
-      <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE">
-        <button class="btn btn-dark delete-btn">Delete</button>
-      </form>    
-    </div>
+    <div class="show-actions">
+    <a
+      href="/listings/<%= listing._id %>/edit"
+      class="btn show-edit-btn"
+    >
+      <i class="fa-solid fa-pen-to-square me-2"></i>
+      Edit
+    </a>
+
+    <form
+      method="POST"
+      action="/listings/<%= listing._id %>?_method=DELETE"
+    >
+      <button class="btn show-delete-btn">
+        <i class="fa-solid fa-trash me-2"></i>
+        Delete
+      </button>
+    </form>
+  </div>
   <% } %>
   
   <div class="col-12 col-md-10 col-lg-8 mx-auto mb-3">
