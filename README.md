@@ -122,10 +122,6 @@ The application provides secure authentication, image uploads, listing managemen
 
 ![Home Page](./screenshots/Home-Page.png)
 
-### 📋 Listings Page
-
-![Listings Page](./screenshots/Listings-Page.png)
-
 ### 📄 Listing Details
 
 ![Listing Details](./screenshots/Listing-Detail.png)
@@ -133,6 +129,10 @@ The application provides secure authentication, image uploads, listing managemen
 ### ➕ Create Listing
 
 ![Create Listing](./screenshots/Create-Listing-Page.png)
+
+### 📋 Edit Listing
+
+![Listings Page](./screenshots/Edit-Page.png)
 
 ### 🔑 Login Page
 
@@ -146,28 +146,80 @@ The application provides secure authentication, image uploads, listing managemen
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
-Wanderlust
+MAJORPROJECT
 │
 ├── controllers/
+│   ├── listings.js
+│   ├── reviews.js
+│   └── users.js
+│
+├── init/
+│   ├── data.js
+│   └── index.js
+│
 ├── models/
-├── routes/
-├── views/
-│   ├── layouts/
-│   ├── listings/
-│   ├── users/
-│   └── includes/
+│   ├── listing.js
+│   ├── review.js
+│   └── user.js
 │
 ├── public/
 │   ├── css/
+│   │   ├── review.css
+│   │   └── style.css
+│   │
 │   └── js/
+│       └── script.js
+│
+├── routes/
+│   ├── listing.js
+│   ├── review.js
+│   └── user.js
+│
+├── screenshots/
+│   ├── Home-Page.png
+│   ├── Listing-Detail.png
+│   ├── Create-Listing-Page.png
+│   ├── Edit-Page.png
+│   ├── Login-Page.png
+│   ├── Signup-Page.png
+│   └── Review.png
 │
 ├── utils/
-├── middleware.js
-├── cloudConfig.js
-├── schema.js
+│   ├── ExpressError.js
+│   └── wrapAsync.js
+│
+├── views/
+│   ├── includes/
+│   │   ├── flash.ejs
+│   │   ├── navbar.ejs
+│   │   └── footer.ejs
+│   │
+│   ├── layouts/
+│   │   └── boilerplate.ejs
+│   │
+│   ├── listings/
+│   │   ├── index.ejs
+│   │   ├── show.ejs
+│   │   ├── new.ejs
+│   │   └── edit.ejs
+│   │
+│   ├── users/
+│   │   ├── login.ejs
+│   │   └── signup.ejs
+│   │
+│   └── error.ejs
+│
 ├── app.js
-└── package.json
+├── cloudConfig.js
+├── middleware.js
+├── schema.js
+├── .env
+├── .gitignore
+├── package.json
+└── package-lock.json
 ```
 
 ---
