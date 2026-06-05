@@ -150,8 +150,6 @@ The application provides secure authentication, image uploads, listing managemen
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```text
 MAJORPROJECT
 │
