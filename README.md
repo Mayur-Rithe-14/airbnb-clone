@@ -8,7 +8,7 @@ The application provides secure authentication, image uploads, listing managemen
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** https://your-render-url.onrender.com
+🔗 **Live Website:** https://airbnb-clone-sqkp.onrender.com
 
 ---
 
