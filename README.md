@@ -1,11 +1,5 @@
 # 🏡 Wanderlust – Airbnb Clone
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://your-render-url.onrender.com)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Bootstrap](https://https://getbootstrap.com/docs/5.3/getting-started/introduction/?style=for-the-badge&logo=bootstrap&logoColor=white)
-
 A full-stack Airbnb-inspired web application that allows users to discover, create, manage, and review accommodation listings.
 
 The application provides secure authentication, image uploads, listing management, and a responsive user experience similar to modern vacation rental platforms.
