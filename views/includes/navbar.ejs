@@ -68,7 +68,7 @@
         <a class="nav-link host-btn" href="/listings/new">
           <i class="fa-solid fa-plus me-2"></i>Add
         </a>
-        <% if(!locals.currUser) { %>
+        <% if(!currUser) { %>
 
           <a class="nav-link auth-btn" href="/signup">
             <i class="fa-solid fa-user-plus me-1"></i>
@@ -81,7 +81,7 @@
           </a>
         <% } %>
         
-        <% if(locals.currUser) { %>  
+        <% if(currUser) { %>  
            <a class="nav-link logout-btn" href="/logout">
             <i class="fa-solid fa-arrow-right-from-bracket me-1"></i>
             Log Out
